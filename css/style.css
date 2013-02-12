@@ -98,9 +98,9 @@ div#main {
 .story {
   background-color: #fff;
   padding: 25px 20px;
-  -webkit-box-shadow: 1px 1px 1px 1px rgba(100, 100, 100, 0.1);
+  -webkit-box-shadow: 1px 1px 3px 0px rgba(150, 150, 150, 0.1);
         
-          box-shadow: 1px 1px 1px 1px rgba(100, 100, 100, 0.1);
+          box-shadow: 1px 1px 3px 0px rgba(150, 150, 150, 0.1);
 }
 
 .story h2 {
