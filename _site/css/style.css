@@ -75,10 +75,6 @@ nav#main ul li {
   margin: 0px auto;
 }
 
-.stories {
-  margin: 50px 0px;
-}
-
 div#main {
   background-color: #E0FAAF;
   z-index: 500;
@@ -86,9 +82,13 @@ div#main {
   width: 100%;
 }
 
+.stories {
+  margin: 50px 0px;
+}
+
 .story {
   background-color: #fff;
-  padding: 35px 30px;
+  padding: 25px 20px;
 }
 
 .story h2 {
@@ -110,6 +110,11 @@ footer .container {
 
   .container { 
     width: 540px;
+  }
+  
+  .story {
+    background-color: #fff;
+    padding: 35px 30px;
   }
 
 }
