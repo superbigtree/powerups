@@ -67,9 +67,7 @@ nav#main ul li {
 
 .logo img {
   width: 100%;
-  height: auto;
-  position: fixed;
-  
+  height: auto;  
 }
 
 .container {
@@ -121,6 +119,10 @@ footer .container {
 
   .container {
     width: 800px;
+  }
+  
+  .logo img {
+    position: fixed;
   }
 
 }
