@@ -1,0 +1,146 @@
+html,
+body,
+input,
+button,
+select,
+textarea {
+  font: 15px/25px "Open Sans", "Helvetica Neue", Helvetica, arial, sans-serif;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-weight: 300;
+}
+
+html,
+body {
+  background-color: #E0FAAF;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, arial, sans-serif;
+  font-weight: 300;
+  margin-top: 0px;
+}
+
+header {
+  background-color: #fff;
+  height: 40px;
+  /*
+  border-top: 1px solid #dcdcd3;
+  border-bottom: 1px solid #dcdcd3;
+  */
+  color: #789F30;
+  position: relative;
+  z-index: 500;
+}
+
+header .container {
+}
+
+nav#main ul {
+  margin: 8px auto 0px auto;
+  padding: 0px;
+  width: 240px;
+  text-align: center;
+}
+
+nav#main ul li {
+  display: inline;
+  margin: 0px 8px;
+}
+
+.logo-container {
+  width: 100%;
+}
+
+.logo {
+    width:100%;
+    height:0px;
+    background-size:100%;
+    padding-bottom:25%;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  
+}
+
+.container {
+  width: 320px;
+  margin: 0px auto;
+}
+
+.stories {
+  margin: 50px 0px;
+}
+
+div#main {
+  background-color: #E0FAAF;
+  z-index: 500;
+  position: absolute;
+  width: 100%;
+}
+
+.story {
+  background-color: #fff;
+  padding: 35px 30px;
+}
+
+.story h2 {
+font-size: 3em;
+line-height: 1.1em;
+font-weight: 100;
+letter-spacing: -3px;
+color: #E187B8;
+margin-bottom: 15px;
+}
+
+footer {
+}
+
+footer .container {
+}
+
+@media only screen and (min-width: 600px) {
+
+  .container { 
+    width: 540px;
+  }
+
+}
+
+
+@media only screen and (min-width: 960px) {
+
+  .container {
+    width: 800px;
+  }
+
+}
+
+
+/* clearfix */
+.row:before,
+.row:after,
+.container:before,
+.container:after {
+  content: " ";
+  display: table;
+}
+
+.row:after,
+.container:after {
+  clear: both;
+}
+
+.row,
+.container {
+  *zoom: 1;
+}
