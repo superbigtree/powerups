@@ -37,6 +37,9 @@ header {
   color: #789F30;
   position: relative;
   z-index: 500;
+  -webkit-box-shadow:  0px 2px 3px -1px rgba(100, 100, 100, 0.1);
+        
+          box-shadow:  0px 2px 3px -1px rgba(100, 100, 100, 0.1);
 }
 
 header .container {
@@ -63,6 +66,9 @@ nav#main ul li {
     height:0px;
     background-size:100%;
     padding-bottom:25%;
+    -webkit-box-shadow: inset 0px -2px 3px -1px rgba(100, 100, 100, .1);
+        
+            box-shadow: inset 0px -2px 3px -1px rgba(100, 100, 100, .1);
 }
 
 .logo img {
@@ -80,6 +86,9 @@ div#main {
   z-index: 500;
   position: absolute;
   width: 100%;
+  -webkit-box-shadow: inset 0px 2px 2px -1px rgba(150, 150, 150, .1);
+        
+          box-shadow: inset 0px 2px 2px -1px rgba(150, 150, 150, .1);
 }
 
 .stories {
@@ -89,6 +98,9 @@ div#main {
 .story {
   background-color: #fff;
   padding: 25px 20px;
+  -webkit-box-shadow: 1px 1px 1px 1px rgba(100, 100, 100, 0.1);
+        
+          box-shadow: 1px 1px 1px 1px rgba(100, 100, 100, 0.1);
 }
 
 .story h2 {
